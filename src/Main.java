@@ -27,6 +27,6 @@ public class Main {
             population = population + fertility - mortality;
             System.out.println("Год " + i + ", численность населения составляет " + population);
         }
-
+        System.out.println("Задача 4");
     }
 }
