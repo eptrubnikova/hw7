@@ -28,5 +28,6 @@ public class Main {
             System.out.println("Год " + i + ", численность населения составляет " + population);
         }
         System.out.println("Задача 4");
+
     }
 }
