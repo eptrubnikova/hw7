@@ -55,9 +55,28 @@ public class Main {
         }
 
         System.out.println("Задача 7");
-    int d = 3;
+    int d = 7;
     for (; d <= 31; d = d + 7){
         System.out.println("Сегодня пятница, " + d + "-е число. Необходимо подготовить отчет");
     }
+
+        System.out.println("Задача 8");
+    int year = 2022;
+    int yearBefore = year - 200;
+    int yearAfter = year + 100;
+    for (int y = 0; y <= yearAfter; y+=79){
+        if (y >= yearBefore && y <= yearAfter)
+            System.out.println(y);
+    }
+
+        System.out.println("Задача 9");
+        int k = 1;
+        int j = 2;
+        int l = 0;
+        for (; k <= 10; k++){
+            l = j * k;
+            System.out.println("2*" + k + "=" + l);
+
+        }
     }
 }
